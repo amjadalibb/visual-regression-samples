@@ -1,0 +1,16 @@
+{
+  "name": "browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./specs/test.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "node-resemble-js": "^0.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}

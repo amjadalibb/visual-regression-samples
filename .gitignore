@@ -1,0 +1,4 @@
+**/node_modules
+**/images
+**/snapshots
+**/package-lock.json

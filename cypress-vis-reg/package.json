@@ -1,0 +1,19 @@
+{
+  "name": "cypress-vis-reg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:vr:actual": "cypress open --env type=actual",
+    "cypress:vr:base": "cypress open --env type=base --config screenshotsFolder=cypress/snapshots/base"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-visual-regression": "^1.3.1"
+  },
+  "devDependencies": {
+    "cypress": "^6.4.0"
+  }
+}
